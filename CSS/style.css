@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+
+.main-wrap{
+    display: flex;
+    justify-content: space-around;
+    width: 55rem;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.shoe-img{
+    background-image: url("images/shoe.avif");
+    height: 16rem;
+    width: 25rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+.qty-setting{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#qty-decrease{
+    width: 8rem;
+    height: 4rem;
+    font-size: 3rem;
+}
+
+#qty-increase{
+    width: 8rem;
+    height: 4rem;
+    font-size: 3rem;
+}
+
+#qty-display{
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.add-to-cart-wrap{
+    text-align: center;
+}
+
+#add-to-cart{
+    width: 22rem;
+    height: 5rem;
+    font-size: 3rem;
+}
+
+.total{
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#total-cost{
+    font-size: 4rem;
+    color: green;
+}
+
+.rs-span{
+    font-size: 4rem;
+    color: green;
+}
